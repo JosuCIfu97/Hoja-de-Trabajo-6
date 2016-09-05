@@ -9,10 +9,7 @@ import java.util.Set;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Josue
- */
+
 public class Main {
     
     /**
