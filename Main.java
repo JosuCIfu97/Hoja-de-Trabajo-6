@@ -23,8 +23,8 @@ public class Main {
         System.out.println("Bienvenido al programa de colección de desarrolladores Java, Web o de celulares");
         
         //Creación de objetos
-        Set JavaDesarrolladores;
         Set WebDesarrolladores;
+        Set JavaDesarrolladores;
         Set CelularDesarrolladores;
         Set Solucion;
         Set Solucion2;
@@ -107,7 +107,7 @@ public class Main {
         Solucion2.clear();
         Solucion2.addAll(op.resta(Solucion, JavaDesarrolladores));
         op.imprimirConjunto(Solucion2);
-        System.out.println("¿Es Desarrolladores Java un subconjunto de Desarrolladores Web?");
+        System.out.println("¿Es Desarrolladores Java un subconjunto de Desarrolladores Web ?");
         String ans;
         boolean sub = op.subconjunto(JavaDesarrolladores, WebDesarrolladores);
         if (sub)
@@ -134,7 +134,7 @@ public class Main {
         System.out.println("El conjunto con mayor cantidad de desarrolladores es: " + mayor);
         System.out.println("Los desarrolladores del conjunto mayor " + mayor + " son: ");
         op.imprimirConjunto(Solucion);
-        System.out.println("Gracias por utilizar el programa.");
+        System.out.println("Gracias por utilizar el programa. Vuelva pronto");
         
     }
     
