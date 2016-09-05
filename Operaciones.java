@@ -13,10 +13,7 @@ import java.util.logging.ConsoleHandler;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Josue
- */
+
 public class Operaciones {
     
     private Set Conjunto;
