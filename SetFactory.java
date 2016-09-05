@@ -10,10 +10,7 @@ import java.util.TreeSet;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Josue
- */
+
 public class SetFactory {
     
     /**
